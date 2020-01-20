@@ -1,5 +1,5 @@
 name: 'Starting Selenoid Server (aerokube/selenoid) within actions'
-description: 'Downloads and starts Selenoid server (Selenium Webdriver compatible - Linux) using CM tool non UI'
+description: 'Downloads and starts Selenoid server (Selenium Webdriver compatible - Linux) using CM tool'
 author: Ajinkya Deshmukh <jinkiestheone@gmail.com>
 branding:
   icon: 'box'  
