@@ -1,10 +1,10 @@
 # selenoid v1
 Starts selenoid server on linux inside github actions workflow!
 
-Use this action:
-
-Run selenium webdriver tests on selenoid (aerokube/selenoid) using Github Actions
-Selnoid is Selenium Hub successor running browsers within containers. Scalable, immutable, self hosted Selenium-Grid on any platform with single binary. https://aerokube.com/selenoid/latest/. 
+## Run selenium webdriver tests on selenoid (aerokube/selenoid) using Github Actions
+    Selnoid is Selenium Hub successor running browsers within containers. 
+    Scalable, immutable, self hosted Selenium-Grid on any platform with single binary. 
+    https://aerokube.com/selenoid/latest/. 
 
 Selenoid is downloaded and configured using CM tool: https://aerokube.com/cm/latest/
 
