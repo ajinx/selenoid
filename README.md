@@ -1,4 +1,4 @@
-# selenoid v1
+# selenoid v2
 Starts selenoid server on linux inside github actions workflow!
 
 ## Run selenium webdriver tests on selenoid (aerokube/selenoid) using Github Actions
@@ -18,7 +18,7 @@ jobs:
     name: <Any name> 
     steps:
     - name: <e.g. Selenoid >
-      uses: ajinx/selenoid@v1
+      uses: ajinx/selenoid@v2
     - uses: actions/checkout@v2
     - run: npm ci  
     - name: <Any test job run name>
@@ -28,5 +28,4 @@ jobs:
 
 In your test configuration, specify remote url as http://localhost:4444/wd/hub 
 
-Start your tests as usual
-This is still BETA, please report any bugs you noticed!
+This is still in BETA and won't work on Windows and MAC runners, Log any issues you noticed.
