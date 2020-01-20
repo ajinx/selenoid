@@ -1,0 +1,9 @@
+name: 'Start Selenoid Server'
+description: 'Downloads and starts Selenoid server (Selenium Webdriver compatible - Linux) using CM tool non UI'
+author: Ajinkya Deshmukh <jinkiestheone@gmail.com>
+branding:
+  icon: 'box'  
+  color: 'blue'
+runs:
+  using: 'node12'
+  main: 'index.js'
