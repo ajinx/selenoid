@@ -9,6 +9,7 @@ Selnoid is Selenium Hub successor running browsers within containers. Scalable, 
 Selenoid is downloaded and configured using CM tool: https://aerokube.com/cm/latest/
 
 Action workflow example
+```      
 on: [push]
 
 jobs:
@@ -22,6 +23,8 @@ jobs:
     - run: npm ci  
     - name: <Any test job run name>
       run: <Test execution command e.g. mvn test, npm test etc>
+      
+```
 
 In your test configuration, specify remote url as http://localhost:4444/wd/hub 
 
