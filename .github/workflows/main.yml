@@ -1,0 +1,15 @@
+name: CI
+
+on: [push]
+
+jobs:
+  start-selenoid:
+    runs-on: ubuntu-latest
+    name: SELENOID JOB
+    steps:
+    - uses: actions/checkout@v2
+    - run: npm ci    
+    - name: start selenoid
+      uses: ./
+    - name: is selenoid started?
+      run: curl http://localhost:4444/status
