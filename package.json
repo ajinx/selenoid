@@ -1,7 +1,7 @@
 {
   "name": "selenoid-action",
   "version": "1.0.0",
-  "description": "This action starts selenoid server on Linux non UI inside github actions workflow",
+  "description": "This action starts selenoid server on Linux inside github actions workflow",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
