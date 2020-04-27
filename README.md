@@ -1,3 +1,6 @@
+![CI](https://github.com/ajinx/selenoid/workflows/CI/badge.svg?branch=master)
+
+
 # selenoid v2
 Starts selenoid server on linux inside github actions workflow!
 
