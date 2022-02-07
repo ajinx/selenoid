@@ -21,7 +21,7 @@ jobs:
     name: <Any name> 
     steps:
     - name: <e.g. Selenoid >
-      uses: ajinx/selenoid@v2
+      uses: ajinx/selenoid@2.0
     - uses: actions/checkout@v2
     - run: npm ci  
     - name: <Any test job run name>
